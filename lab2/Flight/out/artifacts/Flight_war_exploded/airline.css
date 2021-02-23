@@ -1,0 +1,82 @@
+DIV.table
+{
+    display:table;
+}
+FORM.tr, DIV.tr
+{
+    display: table-row;
+    margin: 3px;
+}
+SPAN.td, SPAN.th, FORM.td
+{
+    display: table-cell;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid #999999;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+span.removeButton
+{
+    display: table-cell;
+}
+
+div.tr-group
+{
+    display: table-row-group;
+}
+
+form.inline
+{
+    display: inline;
+}
+
+body
+{
+    background-color: #8cd9b3;
+    font-color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+    margin: auto;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+#loginForm
+{
+    width: 30%;
+}
+
+#loginForm label
+{
+    margin:auto;
+    display: inline-block;
+}
+
+#loginForm input
+{
+    margin:auto;
+    display: inline-block;
+}
+
+button
+{
+    border-radius: 1px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+select, input[type = "datetime-local"]
+{
+    background-color: #b3e6cc;
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Flight" table="FLIGHT">
+        <id name="id" type="int" column="ID">
+            <generator class="assigned"/>
+        </id>
+        <property name="airplaneType">
+            <column name="AIRPLANE_TYPE"/>
+        </property>
+        <property name="departureCityId">
+            <column name="DEPARTURE_CITY_ID"/>
+        </property>
+        <property name="departureDate">
+            <column name="DEPARTURE_DATE"/>
+        </property>
+        <property name="arrivalCityId">
+            <column name="ARRIVAL_CITY_ID"/>
+        </property>
+        <property name="arrivalDate">
+            <column name="ARRIVAL_DATE"/>
+        </property>
+    </class>
+</hibernate-mapping>
